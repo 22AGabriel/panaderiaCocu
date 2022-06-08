@@ -1,0 +1,15 @@
+.productosDestacados{
+    filter: opacity(0.7);
+}
+
+.productosDestacados:hover{
+    filter: opacity(1);
+    transition: 500ms;
+}
+
+@media all and (max-width: 767px){
+    .banner-resonsivpe{
+        height: 250px;
+        object-fit: cover;
+    }
+}
